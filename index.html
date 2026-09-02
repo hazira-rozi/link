@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short Link - SMK RPL</title>
+    <!-- Menggunakan Tailwind CSS via CDN agar cepat dan rapi -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 flex items-center justify-center min-h-screen">
+
+    <div class="bg-slate-800 p-8 rounded-xl shadow-xl max-w-md w-full text-center border border-slate-700">
+        <span class="bg-indigo-600 text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full text-indigo-100">Layanan Redirect</span>
+        <h1 class="text-2xl font-bold mt-4 mb-2">Redirecting System</h1>
+        <p class="text-slate-400 text-sm mb-6">Sistem pendekat tautan murni berbasis GitHub Pages.</p>
+
+        <!-- Pesan status redirect -->
+        <div id="status-pesan" class="text-sm bg-slate-900 p-4 rounded-lg border border-slate-700">
+            Mendeteksi tautan...
+        </div>
+
+        <div class="mt-8 text-xs text-slate-500">
+            &copy; 2026 Jurusan RPL &bull; Powered by GitHub Pages
+        </div>
+    </div>
+
+    <!-- Panggil file pusat data JavaScript -->
+    <script src="links.js"></script>
+    <script>
+        // Jalankan fungsi pengecekan saat halaman selesai dimuat
+        window.onload = function() {
+            prosesRedirect();
+        };
+    </script>
+</body>
+</html>
