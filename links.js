@@ -9,14 +9,15 @@ const databaseLink = {
 
 // Fungsi otomatis untuk melakukan redirect jika parameter / kode ditemukan
 function prosesRedirect() {
-    const path = window.location.search.substring(1); // Mengambil parameter setelah tanda ? (Contoh: ?rpl1)
+    const path = window.location.search.substring(1); 
     
     if (path && databaseLink[path]) {
-        // Jika kode ditemukan di database, alihkan langsung ke URL tujuan
         window.location.replace(databaseLink[path]);
     } else if (path) {
-        // Jika kode tidak ditemukan
         document.getElementById("status-pesan").innerHTML = 
             `<span style="color: red;">Maaf, link pendek <b>?${path}</b> tidak ditemukan!</span>`;
+    } else {
+        document.getElementById("status-pesan").innerHTML = 
+            `Silakan masukkan parameter link pada URL.`;
     }
 }
