@@ -4,7 +4,7 @@
 const databaseLink = {
     
     "tugasphp": "https://drive.google.com/file/d/19qmfRFgTi9Mdp8WdF_B240m1reF9q3st/view?usp=sharing",
-    "modullengkap": "https://chat.whatsapp.com/contohlinkgrup"
+    "modullengkap": "https://drive.google.com/drive/folders/1Mxf25yssu9bB-AD6ok9XcUUycbHINPug?usp=sharing"
 };
 
 // ==========================================
