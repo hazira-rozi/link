@@ -3,7 +3,7 @@
 // ==========================================
 const databaseLink = {
     
-    "crud PHP": "https://docs.google.com/document/d/11AiLcdflFrR1m65_PbSqkoOBXwqMkncg/edit",
+    "crud PHP": "https://drive.google.com/file/d/1ZK_teWMPoAxzt7zVzrEQ8ZNkns7U50ul/view?usp=sharing",
     "tugasphp": "https://drive.google.com/file/d/19qmfRFgTi9Mdp8WdF_B240m1reF9q3st/view?usp=sharing",
     "modullengkap": "https://drive.google.com/drive/folders/1Mxf25yssu9bB-AD6ok9XcUUycbHINPug?usp=sharing"
 };
