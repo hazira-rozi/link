@@ -2,6 +2,7 @@
 // 1. PUSAT DATA LINK (EDIT DI SINI)
 // ==========================================
 const databaseLink = {
+    "MVC": "https://drive.google.com/file/d/1VZUxNRDoQ8NMTEGKHofewbiOA_zyURMe/view?usp=sharing",
     "php_login" : "https://drive.google.com/drive/u/0/folders/1Mxf25yssu9bB-AD6ok9XcUUycbHINPug",
     "XII-Laravel" : "https://drive.google.com/file/d/1VkzZITrszd8XLPJyQ0dz4hhGS1EGhEGj/view?usp=sharing",
     "crud PHP": "https://drive.google.com/file/d/1ZK_teWMPoAxzt7zVzrEQ8ZNkns7U50ul/view?usp=sharing",
